@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Dvd_Rent
+    username: adem
+    password: adem
+  jpa:
+    show-sql: true
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
